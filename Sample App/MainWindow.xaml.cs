@@ -20,6 +20,7 @@ namespace Sample_App
 				string roman = RomanInput.Text.Trim();
 				int result = RomanNumeral.ToInt(roman);
 				ResultTextBlockInt.Text = $"Integer: {result}";
+				Console.WriteLine(TRBLocalization.Get(MessageKey.SendScreenShot));
 			}
 			catch (ArgumentException ex)
 			{

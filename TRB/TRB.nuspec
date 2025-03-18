@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TRB</id>
+    <version>1.0.0</version>
+    <authors>Banifufu</authors>
+    <owners>TrueBPO Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A C# Util for .NET Framework projects</description>
+    <copyright>Copyright © 2025</copyright>
+    <tags>util trb wpf</tags>
+    <icon>Resources\icon.png</icon> 
+    <!-- Explicitly declare .NET Framework 4.8 support -->
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\TRB.dll" target="lib\net48\" />
+    <file src="bin\Release\TRB.pdb" target="lib\net48\" />
+  </files>
+</package>
